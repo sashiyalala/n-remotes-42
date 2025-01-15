@@ -189,7 +189,7 @@ En tu máquina de 42, abre la terminal y elige dónde quieras clonar tu repo de 
 Clónalo, pero cambiando `vogsphere-v2.42madrid.com` por `git.42`:
 
 ```sh
-git clone git@vogsphere-v2.42madrid.com:vogsphere/intra-uuid-37017c37-f279-43c5-86b7-f629581e8a9b-6259240-facosta mi_proyecto
+git clone git@git.42:vogsphere/intra-uuid-37017c37-f279-43c5-86b7-f629581e8a9b-6259240-facosta mi_proyecto
 ```
 
 ### revisa que solo tienes el remoto de 42 aún
