@@ -260,11 +260,11 @@ yo por ejemplo lo suelo llamar `shorigin` (por la "sh" de mi nombre, no tiene ni
 
 si volvemos a preguntarle a `git` por los remotos disponibles, ahora deberían salir 4 resultados! 2 por la URL de 42 con nombre `origin` y 2 por la de GitHub, con el nombre que recién eligimos, e.g. `shorigin`
 ```sh
-➜  ft_printf_wip git:(master) git remote -v
+➜  mi_proyecto git:(master) git remote -v
 origin  git@git.42:vogsphere/intra-uuid-37017c37-f279-43c5-86b7-f629581e8a9b-6259240-facosta (fetch)
 origin  git@git.42:vogsphere/intra-uuid-37017c37-f279-43c5-86b7-f629581e8a9b-6259240-facosta (push)
-shorigin        git@github.com:sashiyalala/ft_printf.git (fetch)
-shorigin        git@github.com:sashiyalala/ft_printf.git (push)
+shorigin        git@github.com:sashiyalala/n-remotes-42.git (fetch)
+shorigin        git@github.com:sashiyalala/n-remotes-42.git (push)
 ```
 
 Ahora, es muy importante que cada vez que hagas `git push/fetch/pull`, le indiques el remoto!
